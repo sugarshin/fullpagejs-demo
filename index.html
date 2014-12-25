@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>fullPage.js demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css">
+  <style>
+    .section:nth-child(1) {
+      background: #E9A21F;
+    }
+    .section:nth-child(2) {
+      background: #E78E21;
+    }
+    .section:nth-child(3) {
+      background: #EDB51C;
+    }
+    .section:nth-child(4) {
+      background: #DD6664;
+    }
+    .section:nth-child(5) {
+      background: #DC5D54;
+    }
+  </style>
+</head>
+<body>
+  <div id="fullpage" class="fullpage">
+    <div class="section">1セクション目</div>
+    <div class="section">2セクション目</div>
+    <div class="section">3セクション目</div>
+    <div class="section">4セクション目</div>
+    <div class="section">5セクション目</div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.min.js"></script>
+  <script>
+    $('#fullpage').fullpage();
+  </script>
+</body>
+</html>
